@@ -17,11 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #333;
+}
+
+h2 {
+  padding: 16px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  padding: 8px 0;
+  font-size: 20px;
+  font-wight: 500;
 }
